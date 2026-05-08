@@ -45,7 +45,7 @@ export default function RootLayout({
             </div>
             <nav>
               {/* <ul className="flex gap-6 text-slate-900 font-extrabold tracking-wide"> */}
-              <ul className="flex gap-6 text-white font-bold">
+              <ul className="flex gap-15 text-white font-bold">
                 <li><Link href="/services" className="hover:text-blue-300 transition-colors drop-shadow-sm">서비스</Link></li>
                 <li><Link href="/about" className="hover:text-blue-300 transition-colors drop-shadow-sm">회사소개</Link></li>
                 <li><Link href="/support" className="hover:text-blue-300 transition-colors drop-shadow-sm">고객지원</Link></li>

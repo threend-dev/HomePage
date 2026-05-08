@@ -18,7 +18,7 @@ export default function AboutPage() {
           </p>
           <div className="text-slate-600 space-y-2 text-lg">
             <p>세상의 모든 연결이 닿는 그 지점에서, 3ND는 새로운 가능성을 엽니다.</p>
-            <p>기술과 사람, 데이터와 경험이 만나는 순간 — 미래는 그곳에서 시작됩니다.</p>
+            <p>기술과 사람, 데이터와 경험이 만나는 순간, 미래는 그곳에서 시작됩니다.</p>
           </div>
         </section>
 
