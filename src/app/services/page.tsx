@@ -50,8 +50,6 @@ export default function ServicesPage() {
             <a 
               key={service.id}
               href={service.url}
-              target="_blank"
-              rel="noopener noreferrer"
               className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group flex flex-col items-center p-6 border border-slate-100"
             >
               <div className="w-full relative aspect-[4/3] rounded-xl overflow-hidden mb-6 bg-slate-100 flex items-center justify-center">

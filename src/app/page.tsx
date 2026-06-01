@@ -36,13 +36,13 @@ export default function Home() {
           </p>
           <div className="flex flex-wrap justify-center gap-2 md:gap-4">
             {/* <a href="https://sports.3nd.co.kr" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-white/20 text-white font-semibold py-3 px-8 rounded-full border border-white/20 transition-colors backdrop-blur-md"> */}
-            <a href="https://sports.3nd.co.kr" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-white/20 text-white font-semibold py-2 px-4 md:py-3 md:px-8 text-sm md:text-base rounded-full border border-white/20 transition-colors backdrop-blur-md">
+            <a href="https://sports.3nd.co.kr" className="bg-white/10 hover:bg-white/20 text-white font-semibold py-2 px-4 md:py-3 md:px-8 text-sm md:text-base rounded-full border border-white/20 transition-colors backdrop-blur-md">
               Sports
             </a>
-            <a href="https://recruit.3nd.co.kr" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-white/20 text-white font-semibold py-2 px-4 md:py-3 md:px-8 text-sm md:text-base rounded-full border border-white/20 transition-colors backdrop-blur-md">
+            <a href="https://recruit.3nd.co.kr" className="bg-white/10 hover:bg-white/20 text-white font-semibold py-2 px-4 md:py-3 md:px-8 text-sm md:text-base rounded-full border border-white/20 transition-colors backdrop-blur-md">
               Recruit
             </a>
-            <a href="https://life.3nd.co.kr" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-white/20 text-white font-semibold py-2 px-4 md:py-3 md:px-8 text-sm md:text-base rounded-full border border-white/20 transition-colors backdrop-blur-md">
+            <a href="https://life.3nd.co.kr" className="bg-white/10 hover:bg-white/20 text-white font-semibold py-2 px-4 md:py-3 md:px-8 text-sm md:text-base rounded-full border border-white/20 transition-colors backdrop-blur-md">
               Life
             </a>
           </div>
