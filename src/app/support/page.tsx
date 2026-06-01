@@ -8,6 +8,24 @@ export default function SupportPage() {
 
   const closeModal = () => setModalType(null);
 
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+    const inquiryType = String(formData.get('inquiry_type') || '');
+    const subject = String(formData.get('subject') || '문의');
+    const body = String(formData.get('body') || '');
+
+    // Compose body with inquiry type and body, ensure proper newlines
+    const fullBody = `문의 유형: ${inquiryType}\n\n${body}`;
+
+    // Encode subject and body to UTF-8 safe percent-encoding
+    const mailto = `mailto:3nd@3nd.co.kr?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(fullBody)}`;
+
+    // Open user's mail client with encoded subject/body in same tab
+    window.location.href = mailto;
+  };
+
   return (
     <main className="flex-1 bg-slate-50 flex flex-col">
       {/* Intro Section */}
@@ -36,7 +54,7 @@ export default function SupportPage() {
               문의 및 지원
             </h2>
             
-            <form action="mailto:3nd@3nd.co.kr" method="post" encType="text/plain" className="space-y-6">
+            <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label className="block text-sm font-semibold text-slate-700 mb-3">문의 유형 선택</label>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
