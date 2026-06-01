@@ -31,8 +31,8 @@ export default function RootLayout({
             {/* Depth Contrast */}
             <div className="absolute bottom-0 left-0 right-0 h-2 bg-gradient-to-t from-slate-900/10 to-transparent"></div>
           </div>
-          <div className="relative z-10 w-full h-16 md:h-28 flex items-center justify-between px-4 md:px-8 gap-4 md:gap-0">
-            <div className="flex items-center gap-2 md:-my-8">
+          <div className="relative z-10 w-full h-16 md:h-28 flex items-center justify-between px-4 md:px-8">
+            <div className="flex items-center md:-my-8 flex-shrink-0">
               <Link href="/">
                 <Image 
                   src="/logo_n.png" 
@@ -44,7 +44,7 @@ export default function RootLayout({
                 />
               </Link>
             </div>
-            <nav className="flex-1 md:flex-none">
+            <nav className="flex-shrink-0">
               {/* <ul className="flex gap-6 text-slate-900 font-extrabold tracking-wide"> */}
               <ul className="flex gap-3 md:gap-12 text-white font-semibold md:font-bold text-xs md:text-base">
                 <li><Link href="/services" className="whitespace-nowrap hover:text-blue-300 transition-colors drop-shadow-sm">서비스</Link></li>
