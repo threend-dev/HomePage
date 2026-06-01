@@ -31,24 +31,25 @@ export default function RootLayout({
             {/* Depth Contrast */}
             <div className="absolute bottom-0 left-0 right-0 h-2 bg-gradient-to-t from-slate-900/10 to-transparent"></div>
           </div>
-          <div className="relative z-10 w-full h-28 flex items-center justify-between px-8">
-            <div className="flex items-center gap-2 -my-8">
+          <div className="relative z-10 w-full h-16 md:h-28 flex items-center justify-between px-4 md:px-8 gap-4 md:gap-0">
+            <div className="flex items-center gap-2 md:-my-8">
               <Link href="/">
                 <Image 
                   src="/logo_n.png" 
                   alt="3nd Logo Navy" 
-                  width={200} 
-                  height={100} 
-                  className="object-contain drop-shadow-md"
+                  width={100} 
+                  height={50} 
+                  className="w-20 md:w-48 h-auto object-contain drop-shadow-md"
+                  priority
                 />
               </Link>
             </div>
-            <nav>
+            <nav className="flex-1 md:flex-none">
               {/* <ul className="flex gap-6 text-slate-900 font-extrabold tracking-wide"> */}
-              <ul className="flex gap-15 text-white font-bold">
-                <li><Link href="/services" className="hover:text-blue-300 transition-colors drop-shadow-sm">서비스</Link></li>
-                <li><Link href="/about" className="hover:text-blue-300 transition-colors drop-shadow-sm">회사소개</Link></li>
-                <li><Link href="/support" className="hover:text-blue-300 transition-colors drop-shadow-sm">고객지원</Link></li>
+              <ul className="flex gap-3 md:gap-12 text-white font-semibold md:font-bold text-xs md:text-base">
+                <li><Link href="/services" className="whitespace-nowrap hover:text-blue-300 transition-colors drop-shadow-sm">서비스</Link></li>
+                <li><Link href="/about" className="whitespace-nowrap hover:text-blue-300 transition-colors drop-shadow-sm">회사소개</Link></li>
+                <li><Link href="/support" className="whitespace-nowrap hover:text-blue-300 transition-colors drop-shadow-sm">고객지원</Link></li>
               </ul>
             </nav>
           </div>
