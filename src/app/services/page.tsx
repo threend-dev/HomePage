@@ -7,8 +7,7 @@ export default function ServicesPage() {
       title: "3nd Sports",
       description: "열정과 에너지, 스포츠의 모든 것을 경험하세요.",
       image: "/sports.png",
-      // url: "https://sports.3nd.co.kr"
-      url: "http://localhost:8080/" // --- IGNORE ---
+      url: "https://sports.3nd.co.kr"
     },
     {
       id: "recruit",
