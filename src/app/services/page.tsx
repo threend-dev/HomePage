@@ -14,14 +14,14 @@ export default function ServicesPage() {
       title: "3nd Recruit",
       description: "당신의 가능성을 펼칠 수 있는 새로운 기회.",
       image: "/recruit.png",
-      url: "https://recruit.3nd.co.kr"
+      url: "/recruit"
     },
     {
       id: "life",
       title: "3nd Life",
       description: "더 나은 라이프스타일을 위한 스마트한 선택.",
       image: "/life.png",
-      url: "https://life.3nd.co.kr"
+      url: "/life"
     }
   ];
 
