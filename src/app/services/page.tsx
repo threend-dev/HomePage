@@ -14,7 +14,7 @@ export default function ServicesPage() {
       title: "3nd Recruit",
       description: "당신의 가능성을 펼칠 수 있는 새로운 기회.",
       image: "/recruit.png",
-      url: "/recruit"
+      url: "https://recruit.3nd.co.kr"
     },
     {
       id: "life",
