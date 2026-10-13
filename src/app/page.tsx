@@ -39,7 +39,7 @@ export default function Home() {
             <a href="https://sports.3nd.co.kr" className="bg-white/10 hover:bg-white/20 text-white font-semibold py-2 px-4 md:py-3 md:px-8 text-sm md:text-base rounded-full border border-white/20 transition-colors backdrop-blur-md">
               Sports
             </a>
-            <a href="/recruit" className="bg-white/10 hover:bg-white/20 text-white font-semibold py-2 px-4 md:py-3 md:px-8 text-sm md:text-base rounded-full border border-white/20 transition-colors backdrop-blur-md">
+            <a href="https://recruit.3nd.co.kr" className="bg-white/10 hover:bg-white/20 text-white font-semibold py-2 px-4 md:py-3 md:px-8 text-sm md:text-base rounded-full border border-white/20 transition-colors backdrop-blur-md">
               Recruit
             </a>
             <a href="/life" className="bg-white/10 hover:bg-white/20 text-white font-semibold py-2 px-4 md:py-3 md:px-8 text-sm md:text-base rounded-full border border-white/20 transition-colors backdrop-blur-md">
